@@ -10,7 +10,7 @@ function(Obj, FBTrace, CSSStylePanel) {
 // ********************************************************************************************* //
 // Custom Module Implementation
 
-Firebug.LessDotModule = Obj.extend(Firebug.Module,
+Firebug.DotLessModule = Obj.extend(Firebug.Module,
 {
     // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
     // Initialization
