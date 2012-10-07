@@ -1,1 +1,1 @@
-pref("extensions.firebug.DBG_FIRELESS", true);
+pref("extensions.firebug.DBG_FIRELESS", false);

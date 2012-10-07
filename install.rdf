@@ -20,7 +20,8 @@
     <!-- Front End MetaData -->
     <em:name>FireLess</em:name>
     <em:description>Support for LESS CSS in Firebug</em:description>
-    <em:creator>Jan Odvarko</em:creator>
-    <em:homepageURL>http://getfirebug.com</em:homepageURL>
+    <em:creator>James Carpenter</em:creator>
+    <em:homepageURL>https://github.com/jc4rp3nt3r/fireless</em:homepageURL>    
+    <em:iconURL>chrome://fireless/skin/fireless64.png</em:iconURL>
   </Description>
 </RDF>
