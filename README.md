@@ -1,9 +1,8 @@
 FireLess
 ========
+Firebug Extension: support for [{less} css](http://www.lesscss.org/) 
 
-Firebug Extension: support for Less CSS
-
-The purpose of this extension is to display the correct file name and line number for CSS rules when using the {less} css framework.  The file path and line number in the Style Side Panel of firebug with relect the server side file name & line number. Clicking on the link will continue to take you to the CSS tab, inspecting the combine CSS file.
+The purpose of this extension is to display the correct file name and line number for CSS rules when using the [{less} css](http://www.lesscss.org/)  framework.  The file path and line number in the Style Side Panel of firebug with relect the server side file name & line number. Clicking on the link will continue to take you to the CSS tab, inspecting the combine CSS file.
 
 
 Background Info:
@@ -15,7 +14,7 @@ This causes a serious headache for developers when using firebug, as it is repor
 
 Notes:
 ------
-* 	As of version 0.5, this has only been tested against dotLess, the .Net port of the less CSS framework.   
+* 	As of version 0.5, this has only been tested against [dotLess](http://www.dotlesscss.org/), the .Net port of the less CSS framework.   
 	http://www.dotlesscss.org/
 
 *	Any feature request for other ports, or known issues should be directed to the github issue page:  
@@ -24,4 +23,5 @@ Notes:
 *	See http://code.google.com/p/fbug/issues/detail?id=5961
 
 *	This plugin reads the debug output of dotLess in order to print the original line number and file name during website development.  
-	Example Web.config Entry for dotLess: <dotless minifyCss="false" debug="true" cache="false" web="false" importAllFilesAsLess="true" />
+	Example Web.config Entry for dotLess:   
+	`<dotless minifyCss="false" debug="true" cache="false" web="false" importAllFilesAsLess="true" />`
