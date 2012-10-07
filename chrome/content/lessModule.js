@@ -10,7 +10,7 @@ function(Obj, FBTrace, CSSStylePanel) {
 // ********************************************************************************************* //
 // Custom Module Implementation
 
-Firebug.LessModule = Obj.extend(Firebug.Module,
+Firebug.LessDotModule = Obj.extend(Firebug.Module,
 {
     // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
     // Initialization
@@ -22,7 +22,7 @@ Firebug.LessModule = Obj.extend(Firebug.Module,
         // TODO: Module initialization (there is one module instance per browser window)
 
         if (FBTrace.DBG_FIRELESS)
-            FBTrace.sysout("fireless; LessModule.initialize");
+            FBTrace.sysout("fireless; DotLessModule.initialize");
     },
 
     shutdown: function()
@@ -30,7 +30,7 @@ Firebug.LessModule = Obj.extend(Firebug.Module,
         Firebug.Module.shutdown.apply(this, arguments);
 
         if (FBTrace.DBG_FIRELESS)
-            FBTrace.sysout("fireless; LessModule.shutdown");
+            FBTrace.sysout("fireless; DotLessModule.shutdown");
     },
 
     // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -66,7 +66,7 @@ Firebug.LessModule = Obj.extend(Firebug.Module,
     getSourceLink: function(target, rule)
     {
         // get the normal sourceLink from firebug (Props: href, instance, line, type, object, col)
-        var oSourceLink = Firebug.LessModule.styleGetSourceLink.apply(this, arguments);
+        var oSourceLink = Firebug.DotLessModule.styleGetSourceLink.apply(this, arguments);
     
         // if this is a less file (there could be a mix in a site)
         if (oSourceLink.href.indexOf('.less') !== -1) 
@@ -100,9 +100,9 @@ Firebug.LessModule = Obj.extend(Firebug.Module,
 // ********************************************************************************************* //
 // Registration
 
-Firebug.registerModule(Firebug.LessModule);
+Firebug.registerModule(Firebug.DotLessModule);
 
-return Firebug.LessModule;
+return Firebug.DotLessModule;
 
 // ********************************************************************************************* //
 });

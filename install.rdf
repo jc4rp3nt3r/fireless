@@ -18,7 +18,7 @@
     </em:targetApplication>
 
     <!-- Front End MetaData -->
-    <em:name>FireLess</em:name>
+    <em:name>FireDotLess</em:name>
     <em:description>Support for LESS CSS in Firebug</em:description>
     <em:creator>James Carpenter</em:creator>
     <em:homepageURL>https://github.com/jc4rp3nt3r/fireless</em:homepageURL>    
