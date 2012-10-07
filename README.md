@@ -2,7 +2,7 @@ FireDotLess
 ========
 Firebug Extension: support for [.less{}](http://www.dotlesscss.org/) in debug mode
 
-The purpose of this extension is to display the correct file name and line number for CSS rules when using the [.less{}](http://www.dotlesscss.org/) framework, .less{} port.  The file path and line number in the Style Side Panel of firebug with relect the server side file name & line number. Clicking on the link will continue to take you to the CSS tab, inspecting the combine CSS file.
+The purpose of this extension is to display the correct file name and line number for CSS rules when using the [.less{}](http://www.dotlesscss.org/) framework, a {less} port.  The file path and line number in the Style Side Panel of firebug with relect the server side file name & line number. Clicking on the link will continue to take you to the CSS tab, inspecting the combine CSS file.
 
 
 Background Info:
